@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
@@ -28,3 +29,19 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+=======
+package bridge;
+
+import implementacao.CarroImplementacao;
+
+public class CorridaDuasPortas extends Corrida {
+    public CorridaDuasPortas(CarroImplementacao carro) {
+        super(carro);
+    }
+
+    @Override
+    public void mostrarColocacao(int posicao) {
+        System.out.println("Posição " + posicao + ": " + carro.getMarca() + " - Duas Portas");
+    }
+}
+>>>>>>> 2e47a03b3332510ad3a1593cd49f7c1856856adc
